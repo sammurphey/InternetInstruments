@@ -1,0 +1,45 @@
+main {
+  font-family: sans-serif;
+  background: #ff7900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#numpad-808 {
+	background: #ff7900;
+	display: inline-block;
+	text-align: center;
+  	margin-top: 20px;
+}
+section div {
+  cursor: pointer;
+}
+.square {
+  display: inline-block;
+  float: left;
+  width: 5vw;
+  height: 5vw;
+  color: #fff;
+  line-height: 5vw;
+  margin: 0.5px;
+  padding: 0px;
+  background: #252525;
+  position: relative;
+}
+.long {
+  background: #252525;
+  width: 5vw;
+  height: 6vw;
+  display: block;
+  position: absolute;
+  top: calc(4vw + 1px);
+}
+
+.wide {
+  width: calc(10vw + 1px);
+}
+
+.clear {
+  clear:both;
+}

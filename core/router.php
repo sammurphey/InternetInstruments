@@ -15,8 +15,11 @@ switch($current_path) {
 		break;
 	case "numpad-808":
 		require_once($php_root . "views/numpad-808.php");
+	case "sampler":
+		require_once($php_root . "views/sampler.php");
+		break;
 	case "donate":
-		require_once($php_root . "views/numpad-808.php");
+		require_once($php_root . "views/donate.php");
 		break;
 	default:
 	// assume username and attempt lookup
